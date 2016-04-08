@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Semantic</title>
+
+	<style>
+		#menu {
+			background-color: green;
+			text-align: center;
+		}
+		ul, li {
+			display: inline-block;
+		}
+		#divLeft {
+			width: 25%;
+			float: left;
+		}
+		#divCenter {
+			width: 50%;
+			float: left;
+		}
+		#divRight {
+			width: 25%;
+			float: right;
+		}
+		#nav {
+			background-color: yellow;
+		}
+		#nav2 {
+			background-color: yellow;
+		}
+		aside {
+			background-color: purple;
+		}
+		section {
+			background-color: orange;
+			height: 100px;
+		}
+		article {
+			background-color: silver;
+			height: 100px;
+		}
+		#left {
+			height: 202px;
+		}
+		#right {
+			height: 302px;
+		}
+	</style>
+
+</head>
+<body>
+	<head>LogoBrand</head>
+	<nav id="menu">
+		<ul>
+			Menu
+			<li><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+		</ul>
+	</nav>
+
+	<div id="divLeft">
+		<aside id="left">Aside</aside>
+		<section>Section</section>
+	</div>
+
+	<div id="divCenter">
+		<nav id="nav">
+			<ul>
+				Nav
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+			</ul>
+		</nav>
+		<article>Article</article>
+		<nav id="nav2">
+			<ul>
+				Nav
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+			</ul>
+		</nav>
+		<article>Article</article>
+	</div>
+
+	<div id="divRight">
+		<aside id="right">Aside</aside>
+	</div>
+
+</body>
+</html>
